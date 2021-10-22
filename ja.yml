@@ -3,21 +3,21 @@ en:
   admin:
     welcome:
       index:
-        total_views: Total Views
-        lesson_title: Lesson title
+        total_views: 合計ビュー
+        lesson_title: レッスンタイトル
     paths:
       certificates_tab:
-        completed: Completed Lessons
-        status: Certificates Status
-        issued: Issued
-        pending: Pending
-        automatic: Automatically
-        canceled: Canceled
-        pdf: View as PDF
-        cancel: Cancel
-        issue: Issue
-        no_certificate: There is no certificate template created yet.
-        create_template: Create a template
+        completed: 完了したレッスン
+        status: 証明書ステータス
+        issued: 発行済み
+        pending: 保留中
+        automatic: 自動的に
+        canceled: キャンセル
+        pdf: PDFとして表示
+        cancel: キャンセル
+        issue: 発行
+        no_certificate: 証明書テンプレートはまだ作成されていません
+        create_template: テンプレートを作成します
       users_tab:
         completed: Completed Lessons
         details: Details
