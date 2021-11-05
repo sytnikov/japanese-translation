@@ -65,177 +65,177 @@ en:
         create: テンプレートの作成
     layouts:
       application:
-        workspace: Back to Academy
+        workspace: アカデミーに戻る
     questions:
       show:
         col:
-          attempts: Attempts
-          correct: Correct
-          name: Name
-        completed: Completed
-        title: Title
+          attempts: 試行
+          correct: 正しい
+          name: 名前
+        completed: 完了しました
+        title: タイトル
     plans:
       index:
-        manage: Manage your Plan
-        lifetime: Lifetime access to
-        includes: Plan includes
-        current: Current Plan
-        unlimited: Unlimited
-        unlimited_learners: Unlimited learners
-        unlimited_creators: Unlimited creators
-        unlimited_drafts: Unlimited draft courses
-        analytics: Advanced analytics
-        features: View all features
-        upgrade: Upgrade plan
-        quote: Get a quote
-        features_included: Features included in all plans
-        alert_premium: Your plan provides two academies. If you want to create a second one, please get in touch with us through <a href="mailto:support@marbleteams.com">support@marbleteams.com</a>.
-        topic1: Private/public academy
-        topic2: 'Micro-learning: bite-sized course creator'
-        topic3: Public, restricted and hidden courses
-        topic4: Quizzes
-        topic5: Custom domain
-        topic6: Email invites/link invites
-        topic7: Embed widgets
-        topic8: Custom branding
-        topic9: Certificates
-        topic10: Groups
-        topic11: Multiple languages
-        topic12: All lessons in one place/lesson view
-        topic13: User profiles
-        topic14: Clone lessons
-        topic15: Course collaborators
+        manage: プランの管理
+        lifetime: 有効期間へのアクセス
+        includes: プランに含まれるもの
+        current: 現在のプラン
+        unlimited: 無制限
+        unlimited_learners: 無制限の学習者
+        unlimited_creators: 無制限のクリエイター
+        unlimited_drafts: 無制限のドラフトコース
+        analytics: 高度な分析
+        features: すべての機能を表示
+        upgrade: アップグレード計画
+        quote: 見積もりを取得する
+        features_included: すべてのプランに含まれる機能
+        alert_premium: あなたの計画は2つのアカデミーを提供します。2つ目を作成する場合は <a href="mailto:support@marbleteams.com">support@marbleteams.com</a>.
+        topic1: プライベート/パブリックアカデミー
+        topic2: 'マイクロラーニング: 一口サイズのコース作成者'
+        topic3: パブリック、制限付き、および非表示のコース
+        topic4: クイズ
+        topic5: カスタムドメイン
+        topic6: 招待メール/招待リンク
+        topic7: ウィジェットの埋め込み
+        topic8: カスタムブランディング
+        topic9: 証明書
+        topic10: グループ
+        topic11: 複数の言語
+        topic12: すべてのレッスンを1箇所/レッスンビューで表示
+        topic13: ユーザープロファイル
+        topic14: クローンレッスン
+        topic15: コースの協力者
     tenants:
       edit:
-        name: Academy name
-        name_placeholder: Enter your team or company name
-        welcome_subtitle: Secondary welcome message
-        welcome_title: Primary welcome message
-        whitelabel: White Label
-        whitelabel_checkbox: Remove 'Powered by Marble' signatures
-        design_title: Design
-        design_subtitle: Update your brand logo, background images and the colors used in your academy.
-        brand_instructions: 'Max size: 2000 x 700 px'
-        brand_logo: Brand logo
-        favicon_logo: Favicon logo
-        save_logo: Save logo
-        save_favicon_logo: Save Favicon logo
-        go_to_themes: Go to theme settings
+        name: アカデミー名
+        name_placeholder: チーム名または会社名を入力します
+        welcome_subtitle: セカンダリウェルカムメッセージ
+        welcome_title: プライマリウェルカムメッセージ
+        whitelabel: ホワイトラベル
+        whitelabel_checkbox: 'Powered by Marble'の署名を削除
+        design_title: デザイン
+        design_subtitle: アカデミーで使用されているブランドロゴ、背景画像、色を更新します
+        brand_instructions: '最大サイズ: 2000 x 700 px'
+        brand_logo: ブランドロゴ
+        favicon_logo: ファビコンロゴ
+        save_logo: ロゴを保存
+        save_favicon_logo: ファビコンのロゴを保存
+        go_to_themes: 設定に移動します
       domain:
         form:
-          placeholder: example.yourdomain.tld
-          submit: Save custom domain
-          subtext: 'Please enter your custom (sub)domain without http:// or https://. Your domain will automatically be secured by SSL. It may take up to 24 hours for the DNS changes to be reflected.'
-        subtitle: Set a custom domain for your academy
-        text_html: "Your academy will be available on %{url} and the <span class='font-weight-bold'>custom
-          domain</span> you choose here:"
-        title: Custom Domain
-        learn_more_html: <a href='https://academy.marbleteams.com/mypaths/102/items/199/advanced'>Learn more how to enable a custom domain</a>
+          placeholder: 例.yourdomain.tld
+          submit: カスタムドメインを保存
+          subtext: 'http：//またはhttps：//なしでカスタム（サブ）ドメインを入力してください。ドメインはSSLによって自動的に保護されます。DNSの変更が反映されるまでに最大24時間かかる場合があります'
+        subtitle: アカデミーのカスタムドメインを設定する
+        text_html: "あなたのアカデミーは％{url}と<span class = 'font-weight-bold'> customで利用可能になります
+          ここで選択したドメイン</ span>："
+        title: カスタムドメイン
+        learn_more_html: <a href='https://academy.marbleteams.com/mypaths/102/items/199/advanced'>カスタムドメインを有効にする方法の詳細</a>
       language:
-        submit: Save language
-        label: Language
-        subtitle: Change the language for the entire academy.
+        submit: 言語を保存
+        label: 言語
+        subtitle: アカデミー全体の言語を変更します
       access_policy:
-        action: Change access
+        action: アクセスを変更する
         modal:
           form:
             open:
-              label1: Open
-              label2: Anyone with the link can register to the academy.
+              label1: 開く
+              label2: リンクを知っている人は誰でもアカデミーに登録できます
             private:
-              label1: Private
-              label2: Only people invited to the academy have access to it.
+              label1: プライベート
+              label2: アカデミーに招待された人だけがアクセスできます
             public:
-              label1: Public
-              label2: Anyone with the link can view this academy and its lessons.
-          title: Change access policy
-        subtitle: Change access policy
-        text: You can change the <strong>access policy</strong> for this academy, which is currently <strong>%{value}</strong>.
-        title: Danger Zone
+              label1: パブリック
+              label2: リンクを知っている人は誰でも このアカデミーとそのレッスンを見ることができます
+          title: アクセスポリシーの変更
+        subtitle: アクセスポリシーの変更
+        text: このアカデミーの<strong>アクセスポリシー</ strong>を変更できます。現在は<strong>％{value} </ strong>です
+        title: 危険ゾーン
         notification:
-          open: open
-          private: private
-          public: public
-          subtitle: Get notifications in Slack
-          text: When a course is published or an lesson added, MarbleBot will notify
-            you via Slack.
-          title: Notifications
+          open: 開く
+          private: プライベート
+          public: パブリック
+          subtitle: Slackで通知を受け取る
+          text: コースが公開されたりレッスンが追加されるとMarbleBotは通知します
+            Slack経由で
+          title: 通知
       settings_navigation:
-        brand: "Brand"
-        domain: "Domain"
-        language: "Language"
-        access_policy: "Access Policy"
+        brand: "ブランド"
+        domain: "ドメイン"
+        language: "言語" 
+        access_policy: "アクセスポリシー"
     themes:
-      background_image: Background image
-      bg_instructions: 'Max size: 3000 x 1000 px'
-      brand_instructions: 'Max size: 500 x 175 px'
-      brand_logo: Brand logo
-      button_color: Buttons color
-      button_text_color: Buttons text color
-      colors: Colors
-      colors_subtitle: Please, choose the main colors of your academy.
-      course_background: Course background
-      course_background_image: Course background image
-      course_body_text_color: Course body text color
-      course_design: Course design
-      course_design_subtitle: Course design subtitle
-      delete_image: Delete image
-      go_to: Go to theme settings
-      images: Images
-      images_subtitle: Customize the images shown in your academy.
-      name: Theme name
-      navbar_color: Main navigation bar color
-      navbar_text_color: Main navigation bar text color
-      save: Save new theme
-      title: Theme settings
-      title_color: Title color on homepage
+      background_image: 背景画像
+      bg_instructions: '最大サイズ: 3000 x 1000 px'
+      brand_instructions: '最大サイズ: 500 x 175 px'
+      brand_logo: ブランドロゴ
+      button_color: ボタンの色
+      button_text_color: ボタンのテキストの色
+      colors: 色
+      colors_subtitle: アカデミーのメインカラーをお選びください
+      course_background: コースの背景
+      course_background_image: コースの背景画像
+      course_body_text_color: コース本文の色
+      course_design: コースデザイン
+      course_design_subtitle: コースデザインサブタイトル
+      delete_image: 画像の削除
+      go_to: テーマ設定に移動します
+      images: 画像
+      images_subtitle: アカデミーに表示される画像をカスタマイズします
+      name: テーマ名
+      navbar_color: メインナビゲーションバーの色
+      navbar_text_color: メインナビゲーションバーのテキスト色
+      save: 新しいテーマを保存
+      title: テーマの設定
+      title_color: ホームページのタイトル色
   errors:
     messages:
       not_saved:
-        one: '1 error prohibited this %{resource} from being saved:'
-        other: "%{count} errors prohibited this %{resource} from being saved:"
+        one: '1つのエラーにより、この％{resource}の保存が禁止されました：'
+        other: "％{count}エラーにより、この％{resource}の保存が禁止されました："
   items:
-    update: Update Lesson
-    edit: Edit Lesson
-    delete: Delete Lesson
-    add: Add Lesson
-    create: Create Lesson
-    save: Save Lesson
-    add_question: Add Question
-    choose_file: Choose a file
-    item_code: Code
-    file_size: "(max. 10MB)"
-    enter_tag: Enter a Tag
-    uploaded: Currently Uploaded
-    nolink_text: Don't have a link? Upload a file
+    update: レッスンの更新
+    edit: レッスンの編集
+    delete: レッスンの削除
+    add: レッスンの追加
+    create: レッスンの作成
+    save: レッスンを保存
+    add_question: 質問の追加
+    choose_file: ファイルを選択します
+    item_code: コード
+    file_size: "(最大. 10MB)"
+    enter_tag: タグを入力します
+    uploaded: 現在アップロード済み
+    nolink_text: リンクはありませんか?ファイルのアップロード
     edit_path_item_advanced:
-      choose_lesson: Choose a lesson type
-      website_description: A card for any link
-      video_description: Immersive video integration
-      pdf_description: Upload or link to a file
-      text_description: Long form text with style
-      embed_description: Embed any content you like
-      quiz_description: Giver clear options
+      choose_lesson: レッスンタイプを選択します
+      website_description: 任意のリンクのカード
+      video_description: 没入型ビデオ統合
+      pdf_description: ファイルのアップロードまたはリンク
+      text_description: スタイル付きの長い形式のテキスト
+      embed_description: 好きなコンテンツを埋め込みます
+      quiz_description: 提供者の明確なオプション
     index:
-      all: All
-      reset: Reset
-      tag: Select a tag
+      all: すべて
+      reset: リセット
+      tag: タグを選択します
     myitem:
-      answer: View Answer
-      back: 'Back to:'
-      complete: Complete
-      completed: Completed
-      contents: Lessons
-      feedback: How was it?
-      feedback_text: You just completed
-      link: Visit link
-      mark_finished: Mark Finished
-      next: Next up
-      next_lesson: Continue to Next Lesson
-      start_next_lesson: Start Next Lesson
-      to_path: Return to course
+      answer: 回答を表示
+      back: '戻る:'
+      complete: 完了
+      completed: 完了しました
+      contents: レッスン
+      feedback: どうでしたか?
+      feedback_text: 完了しました
+      link: リンクにアクセス
+      mark_finished: マークが終了しました
+      next: 次へ
+      next_lesson: 次のレッスンに進む
+      start_next_lesson: 次のレッスンを開始します
+      to_path: コースに戻る
     new:
-      title: New Lesson
+      title: 新しいレッスン
     new_path_item:
       add_existing_content: Add existing lesson
       add_items_text: Find lesson
