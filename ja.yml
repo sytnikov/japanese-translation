@@ -127,7 +127,7 @@ en:
           submit: カスタムドメインを保存
           subtext: 'http：//またはhttps：//なしでカスタム（サブ）ドメインを入力してください。ドメインはSSLによって自動的に保護されます。DNSの変更が反映されるまでに最大24時間かかる場合があります'
         subtitle: アカデミーのカスタムドメインを設定する
-        text_html: "あなたのアカデミーは％{url}と<span class = 'font-weight-bold'> customで利用可能になります
+        text_html: "あなたのアカデミーは%{url}と<span class = 'font-weight-bold'> customで利用可能になります
           ここで選択したドメイン</ span>："
         title: カスタムドメイン
         learn_more_html: <a href='https://academy.marbleteams.com/mypaths/102/items/199/advanced'>カスタムドメインを有効にする方法の詳細</a>
@@ -150,7 +150,7 @@ en:
               label2: リンクを知っている人は誰でも このアカデミーとそのレッスンを見ることができます
           title: アクセスポリシーの変更
         subtitle: アクセスポリシーの変更
-        text: このアカデミーの<strong>アクセスポリシー</ strong>を変更できます。現在は<strong>％{value} </ strong>です
+        text: このアカデミーの<strong>アクセスポリシー</ strong>を変更できます。現在は<strong>%{value} </ strong>です
         title: 危険ゾーン
         notification:
           open: 開く
@@ -192,8 +192,8 @@ en:
   errors:
     messages:
       not_saved:
-        one: '1つのエラーにより、この％{resource}の保存が禁止されました：'
-        other: "％{count}エラーにより、この％{resource}の保存が禁止されました："
+        one: '1つのエラーにより、この%{resource}の保存が禁止されました：'
+        other: "%{count}エラーにより、この%{resource}の保存が禁止されました："
   items:
     update: レッスンの更新
     edit: レッスンの編集
@@ -327,7 +327,7 @@ en:
       ＃このページの文字列の一部はパス/編集にリンクされています
       assign_groups: グループを割り当てます
       assign_groups_text: 管理環境で以前に作成した学習者のグループを割り当てることもできます
-      currently_in: 現在％{timezone}時間です
+      currently_in: 現在%{timezone}時間です
       design_description: デザイン
       design_title: 学習者モードのレイアウトを変更します
       find_learners: 学習者を検索する
@@ -540,66 +540,66 @@ en:
     create: 作成
     add: 追加
     share: 共有
-    save: Save
-    search: Search
-    save_changes: Save changes
-    sign_in: Sign in
-    sign_up: Sign up
-    sign_out: Sign out
-    sure: Are you sure?
-    active: Active
-    inactive: Inactive
-    update: Update
-    save_pdf: Upload and save PDF file
-    admin: Admin
-    name: Name
-    title: Title
-    description: Description
+    save: 保存
+    search: 検索
+    save_changes: 変更を保存
+    sign_in: サインイン
+    sign_up: サインアップ
+    sign_out: サインアウト
+    sure: よろしいですか？
+    active: アクティブ
+    inactive: 非アクティブ
+    update: 更新
+    save_pdf: PDFファイルをアップロードして保存します
+    admin: 管理者
+    name: 名前
+    title: タイトル
+    description: 説明
     url: URL
-    email: E-mail
-    details: Details
-    course: Course
-    courses: Courses
-    lesson: Lesson
-    lessons: Lessons
-    user: User
-    users: Users
-    academy: Academy
-    academies: Academies
-    group: Group
-    groups: Groups
-    tag: Tag
-    tags: Tags
-    view: View
-    views: Views
-    in_hours: In hours
-    date: Date
-    "yes": "Yes"
-    "no": "No"
+    email: 電子メール
+    details: 詳細
+    course: コース
+    courses: コース
+    lesson: レッスン
+    lessons: レッスン
+    user: ユーザー
+    users: ユーザー
+    academy: アカデミー
+    academies: アカデミー
+    group: グループ
+    groups: グループ
+    tag: タグ
+    tags: タグ
+    view: 表示
+    views: ビュー
+    in_hours: 時間単位
+    date: 日付
+    "yes": "はい"
+    "no": "いいえ"
     min: min
     h: h
     s: s
-    ago: ago
-    analytics: Analytics
-    time_spent: Time Spent
-    last_seen: Last Seen
-    completed: Completed
-    completion: Completion
-    satisfaction: Satisfaction
-    avg_satisfaction: Avg. Satisfaction
-    actions: Actions
-    dashboard: Dashboard
-    role: Role
-    admins: Admins
-    creator: Creator
-    creators: Creators
-    learner: Learner
-    learners: Learners
-    certificate: Certificate
-    certificates: Certificates
-    question: Question
-    questions: Questions
-    settings: Settings
-    billing: Billing
-    integration: Integration
-    integrations: Integrations
+    ago: 前に
+    analytics: 分析
+    time_spent: 費やした時間
+    last_seen: 最後に見た
+    completed: 完了
+    completion: 完了
+    satisfaction: 満足度
+    avg_satisfaction: 平均満足度
+    actions: アクション
+    dashboard: ダッシュボード
+    role: 役割
+    admins: 管理者
+    creator: クリエイター
+    creators: クリエイター
+    learner: 学習者
+    learners: 学習者
+    certificate: 証明書
+    certificates: 証明書
+    question: 質問
+    questions: 質問
+    settings: 設定
+    billing: 請求
+    integration: 統合
+    integrations: 統合
