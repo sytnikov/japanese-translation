@@ -19,50 +19,50 @@ en:
         no_certificate: 証明書テンプレートはまだ作成されていません
         create_template: テンプレートを作成します
       users_tab:
-        completed: Completed Lessons
-        details: Details
+        completed: 完了したレッスン
+        details: 詳細
     users:
       index:
-        banner_button: Change access policy
-        banner_title: Want to allow users to sign up by themselves?
+        banner_button: アクセスポリシーを変更します
+        banner_title: ユーザーが自分でサインアップできるようにしますか?
         invite:
-          button: Invite User
-          email: Email address
-          name: Name
-          title: Invite new users
+          button: ユーザーを招待
+          email: メールアドレス
+          name: 名前
+          title: 新しいユーザーを招待する
         sharelink:
-          button: Copy
-          title: Or share this link
+          button: コピー
+          title: またはこのリンクを共有する
     items:
-      completed: Completed
+      completed: 完了
     groups:
       index:
-        members: Members
-        member: Member
-        new: New group
-        edit: Edit group
-        modal_form_name: Name
-        modal_form_users_label: Add users
-        modal_form_users_placeholder: Select users
-        modal_title: Create a new group
+        members: メンバー
+        member: メンバー
+        new: 新しいグループ
+        edit: グループの編集
+        modal_form_name: 名前
+        modal_form_users_label: ユーザーの追加
+        modal_form_users_placeholder: ユーザーの選択
+        modal_title: 新しいグループを作成する
       show:
         action:
-          remove: Remove from group
-        col_name: Name
-        modal_form_name_placeholder: Name
-        modal_form_users_label: Add users
-        modal_form_users_placeholder: Select users
-        modal_title: Update group
+          remove: グループから削除
+        col_name: 名前
+        modal_form_name_placeholder: 名前
+        modal_form_users_label: ユーザーの追加
+        modal_form_users_placeholder: ユーザーの選択
+        modal_title: 更新グループ
     certificate_templates:
       index:
-        issue_config: Issue Configuration
-        issued: Issued
-        manual: Manual
-        automatic: Automatic
-        template: Template
-        not_created: Not created yet
-        edit: Edit template
-        create: Create template
+        issue_config: 問題の構成
+        issued: 発行済み
+        manual: 手動
+        automatic: 自動
+        template: テンプレート
+        not_created: まだ作成されていません
+        edit: テンプレートの編集
+        create: テンプレートの作成
     layouts:
       application:
         workspace: Back to Academy
