@@ -237,309 +237,309 @@ en:
     new:
       title: 新しいレッスン
     new_path_item:
-      add_existing_content: Add existing lesson
-      add_items_text: Find lesson
-      add_items_title: Choose lessons to add
-      add_new_content: Add new lesson
-      add_question: Add question
-      question_text: You can add questions after creating the lesson.
+      add_existing_content: 既存のレッスンを追加します
+      add_items_text: レッスンを探す
+      add_items_title: 追加するレッスンを選択してください
+      add_new_content: 新しいレッスンを追加します
+      add_question: 質問を追加
+      question_text: レッスンの作成後に質問を追加できます
     show:
-      link: Visit link
+      link: リンクにアクセス
   layouts:
     _navbar:
-      account_question: Have an account?
-      admin_settings: Admin Settings
-      create_path: Create a course
-      design: Design
-      invite_users: Invite Users
-      my_profile: My profile
-      my_settings: My settings
-      support: Support
-      templates: Templates
+      account_question: アカウントをお持ちですか？
+      admin_settings: 管理者設定
+      create_path: コースを作成します
+      design: デザイン
+      invite_users: ユーザーを招待します
+      my_profile: 私のプロフィール
+      my_settings: 私の設定
+      support: サポート
+      templates: テンプレート
     _navbar_tenants:
-      account_question: Have an account?
+      account_question: アカウントをお持ちですか？
   notification_mailer:
     new_path_notification:
-      email: Email
-      sign_in: Sign In
-      workspace_name: Academy name
-      workspace_url: Academy URL
+      email: Eメール
+      sign_in: サインイン
+      workspace_name: アカデミー名
+      workspace_url: アカデミーのURL
   paths:
     shared:
-      choose_file: Choose a file
-      file_size: "(max. 10MB)"
-      item_tags_text: Enter a tag
-      nolink_text: Don't have a link? Upload a file
-      enter_url: Enter a URL
-      enter_emails: Enter emails here
-      start_date: Start date
-      end_date: End date
-      draft: Draft
-      publish: Publish
-      previous: Previous
-      start: Start
-      resume: Resume
-      no_notifications: No notifications
-      notifications: Notifications
-      now_button: Now
-      privacy: Privacy
-      anyone_with_link: Anyone with link
-      anyone_with_link_text_2: Anyone on the internet can view this course.
-      restricted: Restricted
-      restricted_text: Only learners assigned can open with this course.
-      privacy_text: Set the privacy of this course.
-      public_text: Anyone in the academy can view this course.
-      available: Available
-      expired: Expired
-      edit_path: Edit Course
+      choose_file: ファイルを選択します
+      file_size: "(最大. 10MB)"
+      item_tags_text: タグを入力してください
+      nolink_text: リンクがありませんか？ファイルをアップロードする
+      enter_url: URLを入力してください
+      enter_emails: ここにメールアドレスを入力してください
+      start_date: 開始日
+      end_date: 終了日
+      draft: ドラフト
+      publish: 公開
+      previous: 前
+      start: 開始
+      resume: 再開
+      no_notifications: 通知なし
+      notifications: 通知
+      now_button: 今
+      privacy: プライバシー
+      anyone_with_link: リンクを持っている人
+      anyone_with_link_text_2: インターネット上の誰でもこのコースを見ることができます
+      restricted: 制限付き
+      restricted_text: 割り当てられた学習者のみがこのコースを開くことができます
+      privacy_text: このコースのプライバシーを設定します
+      public_text: アカデミーの誰でもこのコースを見ることができます
+      available: 利用可能
+      expired: 期限切れ
+      edit_path: コースの編集
     show_settings:
-      delete_image: Delete image
-      restore_image: Restore default
+      delete_image: 画像の削除
+      restore_image: デフォルトに戻す
     edit_cover_image_modal:
-      restore: Restore default
+      restore: デフォルトの復元
       label:
-        banner: Cover image
-        banner_instructions: 'Max size: 3000 x 1500 px'
-      title: Change course cover image
+        banner: カバー画像
+        banner_instructions: '最大サイズ: 3000 x 1500 px'
+      title: コースカバー画像の変更
     _edit_path_modal:
       label:
-        image: Course background image
-        image_instructions: "Max size: 3500 x 1100 px"
-        text_color: Course title color
+        image: コース背景画像
+        image_instructions: "最大サイズ: 3500 x 1100 px"
+        text_color: コースタイトルの色
     _existing_items_modal:
-      select_items: Select lessons
-      title: Add Existing Lessons
+      select_items: レッスンを選択
+      title: 既存のレッスンを追加
     _modal_add_content:
-      add_existing_content: Add existing lesson
-      add_new_content: Add new lesson
-      choose_items: Choose lessons to add
-      find_content: Find lesson
+      add_existing_content: 既存のレッスンを追加する
+      add_new_content: 新しいレッスンを追加する
+      choose_items: 追加するレッスンを選択
+      find_content: レッスンを見つける
     _modal_add_question:
-      add_option: Add option
-      ask_question: Ask a question...
-      title: Multiple Choice Question
+      add_option: オプションの追加
+      ask_question: 質問をする...
+      title: 複数選択質問
     _modal_edit_item:
-      title: Edit lesson
+      title: レッスンの編集
     _modal_edit_question:
-      add_option: Add option
-      title: Edit question
+      add_option: オプションの追加
+      title: 質問を編集する
     _modal_path_settings:
-      # Part of the strings from this page are linked to the paths/edit
-      assign_groups: Assign groups
-      assign_groups_text: You can also assign groups of learners previously created in the admin environment.
-      currently_in: You are currently in %{timezone} time
-      design_description: Design
-      design_title: Change the layout of your learner mode
-      find_learners: Find learners
-      find_groups: Find groups
-      only_assigned: Only assigned members
-      path_collaboration: Course collaboration
-      path_collaboration_text: Allow learners to add lessons to this course.
-      person_space: persons in your academy.
-        only for a certain period of time.
+      ＃このページの文字列の一部はパス/編集にリンクされています
+      assign_groups: グループを割り当てます
+      assign_groups_text: 管理環境で以前に作成した学習者のグループを割り当てることもできます
+      currently_in: 現在％{timezone}時間です
+      design_description: デザイン
+      design_title: 学習者モードのレイアウトを変更します
+      find_learners: 学習者を検索する
+      find_groups: グループを検索する
+      only_assigned: 割り当てられたメンバーのみ
+      path_collaboration: コースコラボレーション
+      path_collaboration_text: 学習者にこのコースへのレッスンの追加を許可します
+      person_space: あなたのアカデミーの人
+        一定の期間のみ
     _new_item_modal:
-      title: Add new lesson
+      title: 新しいレッスンを追加
     _path:
-      change_cover: Change Cover
-      edit_path: Edit Course
+      change_cover: カバーの変更
+      edit_path: コースの編集
       items:
-        one: "%{count} Lesson"
-        other: "%{count} Lessons"
-      view_path: View Course
+        one: "%{count}レッスン"
+        other: "%{count}レッスン"
+      view_path: コースを表示
     _paths_list:
-      create_first_path: Create your first course
-      no_paths: There are no courses here yet.
+      create_first_path: 最初のコースを作成します
+      no_paths: ここにはまだコースがありません
     edit:
-      add_content: Add lesson
-      all_learners: All learners
-      assign_learners: Assign learners
-      assign_learners_text: You can assign individual learners who will be able to
-        see the course and are notified about the course.
-      change_name: Change Name
-      change_timezone: Change your time zone here
-      currently_in: You are currently in
-      form_title: The form contains
-      group_path_title: Group course settings
-      noend: No end
-      notifications_text: Your learners will receive a notification about this course.
-      only_assigned: Only assigned members
-      path_collaboration: Course collaboration
-      path_collaboration_text: Allow learners to add lessons to this course.
-      person_space: persons in your academy.
-      schedule_path: Schedule a course
-      schedule_path_text_1: Courses are generally always available to your academy.
-      schedule_path_text_2: With this setting, you can schedule courses to be available
-        only for a certain period of time.
-      sending_notification: You will be sending a notification to
-      title_1: Add lesson
-      title_2: Group course settings
+      add_content: レッスンを追加
+      all_learners: すべての学習者
+      assign_learners: 学習者を割り当てます
+      assign_learners_text: 学習者を個別に割り当てることができます
+        コースを参照しコースについて通知されます
+      change_name: 名前の変更
+      change_timezone: タイムゾーンを変更する
+      currently_in: あなたは現在
+      form_title: フォームに含まれるもの
+      group_path_title: グループコース設定
+      noend: 終わりなし
+      notifications_text: 学習者にこのコースについての通知が届きます
+      only_assigned: 割り当てられたメンバのみ
+      path_collaboration: コースコラボレーション
+      path_collaboration_text: 学習者にこのコースへのレッスンの追加を許可します
+      person_space: あなたのアカデミーの人
+      schedule_path: コースのスケジュール
+      schedule_path_text_1: コースは通常  アカデミーでいつでも利用できます
+      schedule_path_text_2: この設定を使用するとコースを利用できるようにスケジュールできます
+        一定期間のみ
+      sending_notification: 通知をに送信します
+      title_1: レッスンを追加
+      title_2: グループコースの設定
     index:
-      assigned: Assigned to me
+      assigned: 私に割り当てられた
     review:
-      all_learners: All learners
-      assign_users: Assign users
-      assign_users_text: You can assign individual users who will be able to see the
-        course and are notified about the course.
-      change_timezone: Change your time zone here
-      currently_in: You are currently in
-      find_learners: Find learners
-      form_title: The form contains
-      notifications_text: Your learners will receive a notification about this course.
-      only_assigned: Only assigned members
-      open-ended: Open-ended
-      person_space: Persons
-      save_draft: Save as draft
-      schedule_path: Schedule course
-      schedule_path_text_1: Courses are generally always available to your academy.
-      schedule_path_text_2: With this setting, you can schedule courses to be available
-        only for a certain period of time.
-      sending_notification: You will be sending a notification to
-      title: Configure course
+      all_learners: すべての学習者
+      assign_users: ユーザーを割り当てます
+      assign_users_text: 表示できる個々のユーザーを割り当てることができます
+        コースを選択しコースについて通知されます
+      change_timezone: タイムゾーンを変更する
+      currently_in: あなたは現在
+      find_learners: 学習者を検索します
+      form_title: フォームに含まれるもの
+      notifications_text: 学習者はこのコースに関する通知を受け取ります.
+      only_assigned: 割り当てられたメンバーのみ
+      open-ended: オープンエンド
+      person_space: 人
+      save_draft: 下書きとして保存
+      schedule_path: コースのスケジュール
+      schedule_path_text_1: コースは通常アカデミーでいつでも利用できます
+      schedule_path_text_2: この設定を使用すると、コースを利用できるようにスケジュールできます
+        一定期間のみ
+      sending_notification: 通知をに送信します
+      title: コースを構成する
     preview:
-      edit: Edit Course
+      edit: コースの編集
     show:
-      add_item: Add at least one lesson
-      course_details: Course Details
-      edit: Edit
-      enter_emails: Enter emails here
-      invitations_sent: Invitations sent to
-      invite: Invite
-      invite_learners: Invite learners
-      invite_learners_text: The learners will be invited and assigned to this course.
-      learners: learners.
-      no_items: There are no lessons yet.
-      path_published: Course was successfully published.
-      send_invitations: Send invitations
+      add_item: 少なくとも1つのレッスンを追加します
+      course_details: コースの詳細
+      edit: 編集
+      enter_emails: ここにメールアドレスを入力してください
+      invitations_sent: 招待の送信先
+      invite: 招待
+      invite_learners: 学習者を招待する
+      invite_learners_text: 学習者は　このコースに招待され　割り当てられます
+      learners: 学習者
+      no_items: まだレッスンはありません
+      path_published: コースが正常に公開されました
+      send_invitations: 招待状を送信する
     show_share:
       sharelink:
-        button: Copy
-        title: Share this link
+        button: コピー
+        title: このリンクを共有する
     templates:
-      create_template: Create from template
-      title: Templates
-      view_original: View original course
+      create_template: テンプレートから作成
+      title: テンプレート
+      view_original:元のコースを表示
   questions:
     shared:
-      correct: Correct answer!
-      incorrect: Incorrect!
-      correct_text: 'The correct answer is option:'
-      multiple: Multiple choice question
-      submit: Submit
-      answer: Check for correct answer
+      correct: 正解!
+      incorrect: 不正解です！
+      correct_text: '正解はオプションです:'
+      multiple: 複数の選択肢の質問
+      submit: 送信
+      answer: 正解を確認してください
     _option_fields:
-      option: Option
-      answer: Check answer
+      option: オプション
+      answer: 答えを確認する
     _question_form:
-      add_option: Add option
-      ask_question: Ask a question...
-      save_options: Save options
+      add_option: オプションの追加
+      ask_question: 質問をする...
+      save_options: オプションを保存します
     _view_question:
-      title: Quiz Question
+      title: クイズの質問
     modal_failure:
-      try_again: You can try again!
+      try_again: もう一度やり直すことができます！
   profiles:
     shared:
-      email: Enter an email address
-      locale: Language
-      name: Enter your name
-      position: Enter your position
+      email: メールアドレスを入力してください
+      locale: 言語
+      name: あなたの名前を入力してください
+      position: あなたの位置を入力してください
     _profile_navigation:
-      overview: Overview
+      overview: 概要
   users:
     shared:
-      password: Password
-      new_password: New Password
-      confirm_new_password: Confirm New Password
-      confirm_password: Confirm Password
-      enter_name: Enter your name
-      enter_password: Enter your password
-      password_confirmation: Enter the password again
-      password_reset: Password reset
-      enter_email: Enter your e-mail address
-      remember: Remember me
-      password_text: Your password should be at least 6 characters long (and contain numbers and special characters for additional security)
+      password: パスワード
+      new_password: 新しいパスワード
+      confirm_new_password: 新しいパスワードの確認
+      confirm_password: パスワードの確認
+      enter_name: 名前を入力してください
+      enter_password: パスワードを入力してください
+      password_confirmation: パスワードを再入力してください
+      password_reset: パスワードのリセット
+      enter_email: メールアドレスを入力してください
+      remember: 私を覚えておいてください
+      password_text: パスワードは6文字以上にする必要があります（セキュリティを強化するために数字と特殊文字を含める必要があります）
       _links:
-        forgot: Forgot your password?
+        forgot: パスワードを忘れましたか?
     profiles:
       certificates:
-        no_certificate: You don't have any issued certificate yet.
-        date_issue: Date of issue
-        view_pdf: View as PDF
+        no_certificate: 発行された証明書はまだありません
+        date_issue: 発行日
+        view_pdf: PDFとして表示
       items:
-        no_lessons: You don't have lessons available yet.
+        no_lessons: まだレッスンを利用できません
       paths:
-        no_courses: You don't have courses available yet.
+        no_courses: まだ利用可能なコースがありません
       show:
-        overview: Overview
-        progress: Learn Progress
-        stats: Personal Statistics
+        overview: 概要
+        progress: 進捗状況を確認する
+        stats: 個人統計
     invitations:
       edit:
-        consent_text_html: By continuing, you're agreeing to our %{terms}.
-        submit_button: Save my password
-        subtitle_html: You'll use your email address (<strong>%{email}</strong>) and
-          a password to sign in to your academy on Marble.
-        title: Join %{tenant}
+        consent_text_html: 続行すると　%{terms}に同意したことになります
+        submit_button: パスワードを保存します
+        subtitle_html: メールアドレス（<strong>%{email} </ strong>）と
+          Marbleでアカデミーにサインインするためのパスワード
+        タイトル %{tenant}
     mailer:
       invitation_instructions:
-        body_html: has invited you to join the academy <strong>%{tenant}</strong>. Join
-          now to start learning!
-        cta: Join Now
-        title: Join %{tenant} on Marble
+        body_html: アカデミー<strong>%{ tenant } </ strong>に招待されました。加入
+          今から学び始めましょう！
+        cta: 今すぐ参加
+        title: Marbleの%{tenant}に参加する
       reset_password_instructions:
-        body: 'You told us you forgot your password. If you really did, click here
-          to choose a new one:'
-        cta: Choose a New Password
-        hint: "“Choose a New Password” button not working?"
-        hint2: 'Just copy and paste this link in your browser:'
-        no_reset: If you didn't mean to reset your password, then you can just ignore
-          this email; your password will not change.
-        title: Reset your password
+        body: 'パスワードを忘れたとのことですが。本当にそうなら　ここをクリックしてください
+          新しいものを選択するには:'
+        cta: 新しいパスワードを選択してください
+        hint: "「新しいパスワードを選択してください」ボタンが機能しませんか？"
+        hint2: 'このリンクをコピーしてブラウザに貼り付けるだけです：'
+        no_reset: パスワードをリセットするつもりがなかった場合は、無視してかまいません
+          このメール; パスワードは変更されません.
+        title: パスワードをリセットする
     passwords:
       edit:
-        submit_button: Change my password
-        subtitle_html: Enter your new password for your Marble account to sign in
-          to <strong>%{tenant}</strong>.
+        submit_button: パスワードを変更します
+        subtitle_html: サインインするMarbleアカウントの新しいパスワードを入力します
+          <strong>%{tenant}</strong>に
       new:
-        reset_link: Get Reset Link
-        subtitle_html: To reset your password, enter the email address you use to
-          sign in to <strong>%{tenant}</strong>.
+        reset_link: リセットリンクを取得します
+        subtitle_html: パスワードをリセットするには使用するメールアドレスを入力します
+          <strong>%{tenant}</strong>にサインインします
     registrations:
       new:
-        terms_button: Terms of Service
-        terms_html: By continuing, you're agreeing to our %{link}.
-        title: Sign up to %{tenant}
+        terms_button: 利用規約
+        terms_html: 続行すると %{link}に同意したことになります
+        title: %{tenant}にサインアップ
     sessions:
       new:
-        title: Sign in to %{tenant}
+        title: %{tenant}にサインインします
   welcome:
     _modal_new_path:
       label:
-        items: Select lesson
+        items: レッスンを選択
       placeholder:
-        select_items: Select lessons
-      title: Create a new course
+        select_items: レッスンを選択します
+      title: 新しいコースを作成する
     home:
-      my_paths: My Courses
-      other_paths: Other Courses
-      welcome: Welcome to %{tenant}'s Academy
+      my_paths: 私のコース
+      other_paths: その他のコース
+      welcome: %{tenant}のアカデミーへようこそ
     signin:
-      continue: Continue
-      label: Enter your Academy URL
-      placeholder: your-team-url
-      title: Sign in to your Academy
+      continue: 続行
+      label: アカデミーのURLを入力してください
+      placeholder: チーム url
+      title: アカデミーにサインインする
   global:
-    back: Back
-    cancel: Cancel
-    close: Close
-    delete: Delete
-    destroy: Destroy
-    edit: Edit
-    new: New
-    remove: Remove
-    create: Create
-    add: Add
-    share: Share
+    back: 戻る
+    cancel: キャンセル
+    close: 閉じる
+    delete: 削除
+    destroy: 破壊する
+    edit: 編集
+    new: 新規
+    remove: 削除
+    create: 作成
+    add: 追加
+    share: 共有
     save: Save
     search: Search
     save_changes: Save changes
