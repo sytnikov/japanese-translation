@@ -2,60 +2,60 @@
 ja:
   activerecord:
     models:
-      answer: Answer
-      certificate: Certificate
-      certificate_template: Certificate Template
-      feature: Feature
-      goal: Goal
-      group: Group
-      integration: Integration
-      item: Lesson
-      option: Option
-      path: Course
-      payment: Payment
-      plan: Plan
-      question: Question
-      skill: Tag
-      tenant: Academy
-      theme: Theme
-      user: User
+      answer: 答え
+      certificate: 証明書
+      certificate_template: 証明書テンプレート
+      feature: 特徴
+      goal: ゴール
+      group: グループ
+      integration: 統合
+      item: レッスン
+      option: オプション
+      path: コース
+      payment: 支払い
+      plan: プラン
+      question: 質問
+      skill: タグ
+      tenant: アカデミー
+      theme: テーマ
+      user: ユーザー
     attributes:
       certificate:
-        date_issued: Date issued
-        status: Status
+        date_issued: 発行日
+        status: ステータス
       certificate_template:
-        course_description: Course description
-        brand_logo: Brand logo
-        signature: Signature
-        printed_name: "Printed name"
-        printed_position: "Printed position"
-        minimum_level: "Minimum level to issue"
-        automatically_issued: "Automatically issued"
+        course_description: コース内容
+        brand_logo: ブランドロゴ
+        signature: 署名
+        printed_name: "印刷された名前"
+        printed_position: "印刷位置"
+        minimum_level: "発行する最小レベル"
+        automatically_issued: "自動発行"
       groups:
-        name: Name
+        name: 名前
       items:
-        attachment: Attachment
+        attachment: 添付ファイル
       path:
-        banner: Cover image
-        background_image: Background image
-        free: Free
-        subscription: Subscription
-        one-time: One-time
+        banner: カバー画像
+        background_image: 背景画像
+        free: 無料
+        subscription: 会員登録
+        one-time: 一回限り
       tenants:
-        subdomain: Subdomain
-        password: Password
+        subdomain: サブドメイン
+        password: パスワード
       themes:
-        brand_logo: Brand logo
-        background_image: Background image
-        course_background: Course background
+        brand_logo: ブランドロゴ
+        background_image: 背景画像
+        course_background: コースの背景
       user:
-        avatar: Avatar
+        avatar: アバター
   admin:
     welcome:
       index:
         total_views: 合計ビュー
         lesson_title: レッスンタイトル
-        in_minutes: "(in minutes)"
+        in_minutes: "(分単位で)"
     paths:
       certificates_tab:
         completed: 完了したレッスン
@@ -73,21 +73,21 @@ ja:
         completed: 完了したレッスン
         details: 詳細
       edit_payment:
-        billing_mode: Billing mode
-        edit_payment: Edit payment
-        currency_hint: "You are using %{name} (%{code}) as your default currency."
-        change_currency: "Change currency"
+        billing_mode: 課金方式
+        edit_payment: 支払い方法の編集
+        currency_hint: "デフォルトの通貨として %{name} (%{code}) を使用しています。"
+        change_currency: "通貨を変更する"
         update:
-          updated: "Course was successfully updated."
-          error: "Sorry, something went wrong when updating."
+          updated: "コースが正常に更新されました。"
+          error: "申し訳ありませんが更新時に問題が発生しました。"
         destroy:
-          destroyed: "Course was successfully destroyed."
+          destroyed: "コースは無事に削除されました。"
         sales:
-          active_subscriber: "active subscriber"
-          active_subscribers: "active subscribers"
+          active_subscriber: "アクティブな購読者"
+          active_subscribers: "アクティブな購読者"
       sales:
-        active_subscribers: "Active subscribers"
-        active_subscriber: "Active subscriber"
+        active_subscribers: "アクティブな購読者"
+        active_subscriber: "アクティブな購読者"
     users:
       index:
         banner_button: アクセスポリシーを変更します
@@ -100,23 +100,23 @@ ja:
         sharelink:
           button: コピー
           title: またはこのリンクを共有する
-        expenditures: Expenditures
+        expenditures: 支出
         lesson:
-          zero: Lesson
-          one: Lesson
-          other: Lessons
-        last_viewed: "Last viewed:"
+          zero: レッスン
+          one: レッスン
+          other: レッスン
+        last_viewed: "最終閲覧日:"
     change_role:
-      one_admin: "You need at least one administrator."
-      admin_limit: "You've reached your limit of admins. Consider upgrading your plan at Admin > Billing."
-      not_valid: "This is not a valid role."
+      one_admin: "最低1名の管理者が必要です。"
+      admin_limit: "管理者の制限に達しました。 管理> 請求でプランをアップグレードすることを検討してください。"
+      not_valid: "これは有効な役割ではありません。"
     helper:
-      active: "Active"
-      invitated: "Invitation Pending"
+      active: "アクティブ"
+      invitated: "招待保留中"
     items:
       completed: 完了
       destroy:
-        destroyed: "Lesson was successfully deleted."
+        destroyed: "レッスンは正常に削除されました。"
     groups:
       index:
         members: メンバー
@@ -136,11 +136,11 @@ ja:
         modal_form_users_placeholder: ユーザーの選択
         modal_title: 更新グループ
       create:
-        created: "Group was successfully created."
+        created: "グループが正常に作成されました。"
         update:
-          updated: "Group was successfully updated."
+          updated: "グループは正常に更新されました。"
         destroy:
-          destroyed: "Group was successfully deleted."
+          destroyed: "グループは正常に削除されました。"
     certificate_templates:
       index:
         issue_config: 問題の構成
@@ -152,23 +152,23 @@ ja:
         edit: テンプレートの編集
         create: テンプレートの作成
       update:
-        updated: "The certificate template was successfully updated."
+        updated: "証明書テンプレートが正常に更新されました。"
       edit:
-        subtitle_html: "Edit certificates for the course <strong>%{course}</strong>."
-        change_logo: "Change logo"
-        upload_logo: "Upload logo"
-        file_recommendations: "We recommend using a PNG file with transparency. Maximum size: 1200 x 600px."
-        change_signature: "Change signature"
-        upload_signature: "Upload signature"
-        automatic_hint: "If you set this as automatic, certificates will be issued after the learner reaches a minimum level to issue, which you can setup below."
+        subtitle_html: "コース <strong>%{course}</strong>の証明書を編集します。"
+        change_logo: "ロゴを変更する"
+        upload_logo: "ロゴをアップロード"
+        file_recommendations: "透明度のあるPNGファイルの使用を推奨します。最大サイズ：1200×600px。"
+        change_signature: "署名を変更する"
+        upload_signature: "署名をアップロードする"
+        automatic_hint: "これを自動に設定すると、学習者が発行する最小レベルに達した後に証明書が発行されます。これは、以下で設定できます。"
     layouts:
       application:
         workspace: アカデミーに戻る
-        marble_academy: "💎 Marble Academy"
-        help_center: "📚 Help Center"
-        facebook: "👍 Facebook Group"
-        feature_request: "👾 Feature request"
-        contact_support: "💬 Contact support"
+        marble_academy: "💎 マーブルアカデミー"
+        help_center: "📚 ヘルプセンター"
+        facebook: "👍 Facebookグループ"
+        feature_request: "👾 機能リクエスト"
+        contact_support: "💬 サポート問い合わせ先"
     questions:
       show:
         col:
@@ -178,7 +178,7 @@ ja:
         completed: 完了しました
         title: タイトル
       destroy:
-        destroyed: "Question was successfully deleted."
+        destroyed: "質問は正常に削除されました。"
     plans:
       index:
         manage: プランの管理
@@ -210,10 +210,10 @@ ja:
         topic13: ユーザープロファイル
         topic14: クローンレッスン
         topic15: コースの協力者
-        manage_subscription: "Manage Subscription"
-        unlimited_academies: "Unlimited academies"
-        unlimited_active_courses: "Unlimited active courses"
-        active_courses: "active courses"
+        manage_subscription: "サブスクリプションの管理"
+        unlimited_academies: "無制限のアカデミー"
+        unlimited_active_courses: "無制限のアクティブコース"
+        active_courses: "アクティブなコース"
         custom_plan_offer: "Didn't find the ideal plan? Contact us so that we can customize it for you."
       payment_confirmed: "The payment was confirmed and you new plan is already available. That means you can start using all the features right away."
       hope_you_enjoy: "We hope you enjoy your experience and that you can use Marble to leverage your business and engage your customers. Feel free to contact us for support, when you need."
